@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+  .flash {
+    animation: flash 0.25s;
+  }
+  .btn:active {
+    transform: scale(0.9);
+    border-color: black; /* Change border color on click */
+  }
+  
+  .flash {
+    animation: flash 0.25s;
+  }
+  
+  @keyframes flash {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+  
+  
